@@ -10,7 +10,8 @@ host = socket.gethostbyname(socket.gethostname())
 addr = (host, port)
 # Create a server using socket and add family and type
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(__address=addr)
+server.bind(addr)
+server.listen()
 
 clients = []
 nicknames = []

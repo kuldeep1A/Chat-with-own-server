@@ -9,7 +9,7 @@ host = socket.gethostbyname(socket.gethostname())
 port = 5050
 addr = (host, port)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(__address=addr)
+client.connect(addr)
 
 
 def receive():
