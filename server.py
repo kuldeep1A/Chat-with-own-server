@@ -4,7 +4,7 @@ import threading
 from tarfile import ENCODING
 
 port = 5050
-ENCODE = "ascii"
+ENCODEING = "ascii"
 # access the host address by name
 host = socket.gethostbyname(socket.gethostname())
 addr = (host, port)
