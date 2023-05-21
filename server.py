@@ -1,6 +1,6 @@
 import socket
 import threading
-from base64 import encode
+# from base64 import encode
 from tarfile import ENCODING
 
 port = 5050
